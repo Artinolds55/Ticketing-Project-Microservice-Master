@@ -6,8 +6,12 @@ spring:
   cloud:
     config:
       server:
-        native:
-          search-locations: classpath:/config
+        git:
+          uri: https://github.com/Artinolds55/Ticketing-Project-MicroServices-Config.git
+          default-label: master
+          username: Artinolds55
+          password: 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
+          fail-fast: true
 
 server:
   port: 8888
