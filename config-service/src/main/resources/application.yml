@@ -2,13 +2,13 @@ spring:
   application:
     name: config-server
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
         git:
           uri: https://github.com/Artinolds55/Ticketing-Project-MicroServices-Config.git
-          default-label: master
+          default-label: main
           username: Artinolds55
           password: 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
           fail-fast: true
