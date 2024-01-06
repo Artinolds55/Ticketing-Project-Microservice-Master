@@ -10,8 +10,11 @@ spring:
           uri: https://github.com/Artinolds55/Ticketing-Project-MicroServices-Config.git
           default-label: main
           username: Artinolds55
-          password: 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
+          password: {cipher}'123d582ec3d5c90ea47259760f838518a033b88a13864e816e37fd1e76620f7f904ca6809dc7c5dfead6f5b555d35a5df0c9851d6cf414f3bf40888c844113f6'
           fail-fast: true
+
+encrypt:
+  key: cydeo
 
 server:
   port: 8888
